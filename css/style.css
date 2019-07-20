@@ -1,0 +1,557 @@
+/* navbar */
+.navbar-brand {
+    font-family: 'Kaushan Script', cursive;
+    color: #F6E40D !important;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover {
+    color: #F6E40D !important;
+}
+.navbar-toggler{
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #fff !important;
+    border: 0;
+    background-color: #fed136;
+}
+
+/* .navbar.transparent.navbar-inverse .navbar-inner {
+  border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  background-color: rgba(0, 0, 0, 0.0);
+  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0%, rgba(0, 0, 0, 0.00)), color-stop(100%, rgba(0, 0, 0, 0.00)));
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+} */
+
+
+/* header */
+
+
+.heading {
+    background-image: url("../images/hh1.jpg");
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+.intro {
+    padding-top: 300px;
+    padding-bottom: 200px;
+
+}
+
+.title {
+    font-family: 'Droid Serif', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+
+.desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+}
+
+/* .header-overlay {
+    background-color: rgba(31, 31, 31, 0.65);
+} */
+
+/* button */
+
+.btn {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+    font-size: 18px;
+    padding: 20px 40px;
+    color: #fff;
+}
+
+.btn-warning:active,
+.btn-warning:focus,
+.btn-warning:hover {
+    background-color: #fec810 !important;
+    border-color: #fec810 !important;
+    color: white;
+}
+
+.btn-warning:active,
+.btn-warning:focus {
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+
+/* Services */
+.services {
+    padding: 100px;
+}
+
+.shead {
+    text-align: center;
+    /* padding-top: 50px; */
+    /* text-transform: uppercase; */
+}
+
+
+.shead h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+.shead p {
+    font-family: 'Droid Serif', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-style: 16px;
+    margin-bottom: 75px;
+}
+
+.sitem {
+    text-align: center !important;
+}
+
+.service-item-title {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+}
+
+.service-item-desc {
+    font-family: 'Droid Serif', sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+/* portfolio */
+
+.portfolio {
+    padding: 100px;
+}
+
+.phead {
+    text-align: center;
+}
+
+.phead h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+.phead p {
+    font-family: 'Droid Serif', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 75px;
+}
+
+
+.portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.portfolio-caption h4 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio-caption p {
+    font-family: 'Droid Serif', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+}
+.portfolio-hover {
+  position: absolute;
+  /* width: 350px;
+  height: 388px; */
+  width: 92.5%;
+  height: 63%;
+  transition: all 0.5s;
+  opacity: 0;
+  background: rgba(254, 209, 54, 0.9);
+  cursor: pointer;
+}
+
+.portfolio-hover:hover {
+  opacity: 1;
+}
+
+.portfolio-hover .portfolio-hover-content {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+/* About */
+
+.about {
+    padding: 100px;
+}
+
+.ahead {
+    text-align: center;
+}
+
+.ahead h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+.ahead p {
+    font-family: 'Droid Serif', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 75px;
+}
+
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    content: '';
+    background-color: #e9ecef;
+}
+
+.timeline>li {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 50px;
+}
+
+
+.timeline>li .timeline-panel {
+    position: relative;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li 
+.timeline-image {
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    text-align: center;
+    color: white;
+    border: 7px solid #e9ecef;
+    border-radius: 100%;
+    background-color: #fed136;
+}
+
+.timeline>li 
+.timeline-image h4 {
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 12px;
+}
+
+.timeline>li
+.timeline-inverted>.timeline-panel {
+    float: right;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline .timeline-body>ul,
+.timeline .timeline-body>p {
+    margin-bottom: 0;
+}
+.timeline-heading h4{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.timeline-body p{
+    font-weight: 400;
+    font-family: 'Droid Serif', sans-serif;
+}
+
+@media (min-width: 768px) {
+    .timeline:before {
+        left: 50%;
+    }
+
+    .timeline>li {
+        min-height: 100px;
+        margin-bottom: 100px;
+    }
+
+    .timeline>li .timeline-panel {
+        float: left;
+        width: 41%;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+
+    .timeline>li .timeline-image {
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 16px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        float: right;
+        padding: 0 30px 20px 20px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .timeline>li {
+        min-height: 150px;
+    }
+
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px;
+    }
+
+    .timeline>li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 30px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 20px 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .timeline>li {
+        min-height: 170px;
+    }
+
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px 100px;
+    }
+
+    .timeline>li .timeline-image {
+        width: 170px;
+        height: 170px;
+        margin-left: -85px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        margin-top: 40px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 100px 20px 20px;
+    }
+}
+
+/* Team */
+.team {
+    padding: 100px;
+}
+
+.thead {
+    text-align: center;
+}
+
+.thead h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+.thead p {
+    font-family: 'Droid Serif', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 75px;
+}
+
+.timage {
+    width: 225px;
+    height: 225px;
+    border: 7px solid rgba(0, 0, 0, .1);
+    margin-bottom: 25px;
+}
+
+.tmember {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tmember h4 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tmember p {
+    font-weight: 400;
+    font-family: 'Droid Serif', sans-serif;
+}
+
+ul li a i {
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    transition: all .3s;
+    color: #fff;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #212529;
+}
+
+ul li a i:active,
+ul li a i:focus,
+ul li a i:hover {
+    background-color: #fed136;
+}
+
+.contact {
+    padding: 100px;
+}
+
+.chead {
+    text-align: center;
+}
+
+.chead h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+.chead h3 {
+    font-family: 'Droid Serif', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 75px;
+    color: #6c757d !important;
+}
+
+.contact {
+    background-image: url("../images/m3.png");
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.b input {
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+
+/* footer */
+
+.footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+.list-inline-item i {
+    padding-top: 15px;
+}
